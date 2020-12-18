@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fresh Aqua</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <link rel="preload" href="fonts/TTNorms-Regular.woff" as="font">
+    <link rel="preload" href="fonts/Circe-Regular.woff" as="font">
+    <link rel="stylesheet" href="libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="page-top">
+  <header class="container page-header">
+    <a class="logo" href="index.html">
+      <img class="logo__img" width="113" height="42" src="img/logo.svg" alt="логотип Fresh Aqua">  
+      </img>
+    </a>
+  <button class="toggle" type="button">Меню</button>
+  <div class="menu">
+      <div class="menu__wrap">
+        <nav class="menu__nav">
+          <a class="menu__link menu__link--active" href="index.html">Системы для домов</a>
+          <a class="menu__link " href="industrial-systems.html">Промышленные системы</a>
+          <a class="menu__link " href="service.html">Сервисное обслуживание</a>
+        </nav>
+        <a href="tel:+7(952)2911176" class="menu__phone">+7 (952) 291-11-76</a>
+        <a class="button button--white" data-fancybox href="#callback">Перезвоните мне</a>
+      </div>
+</div>
+</header>
+
+  <div class="page-top__block">
+    <div class="container
+">
+      <section class="promo">
+        <h1 class="title title--promo">Системы водоочистки для частных домов в Москве и МО</h1>
+        <p class="promo__description">Более 10 лет доводим качество воды до европейских стандартов. Индивидуальный подбор систем очистки. Пожизненная гарантия по договору.</p>
+        <p class="promo__form-info">Введите номер телефона для связи</p>
+        <form class="form form--promo" method="post">
+          <label class="form__label form__label--promo"><input class="form__phone phone" type="tel" name="phone" placeholder="+7 (___) ___ - __-__ "></label>
+          <a class="button button--form button--form-promo" href="#">Хочу знать больше</a>
+          <label><input class="visually-hidden form__checkbox" type="checkbox" required checked><span class="form__checkbox-text">Я даю свое согласие на обработку персональных данных</span></label>
+        </form>
+      </section>
+    </div>
+    <div class="mini-slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="mini-slider__item swiper-slide">
+  <section class="mini-slider__content">
+    <h3 class="mini-slider__title">24 часа</h3>
+    <p class="mini-slider__text">Именно столько времени нам понадобится на монтаж с момента заявки</p>
+  </section>
+  <div class="mini-slider__img">
+    <img alt="изображение" src="img/mini-slid1.jpg">
+  </div>
+</div>
+
+        <div class="mini-slider__item swiper-slide">
+          <section class="mini-slider__content">
+            <h3 class="mini-slider__title"><img src="img/infinity.svg" alt="Пожизненная гарантия"></h3>
+            <p class="mini-slider__text">Пожизненная гарантия на систему при заключении сервисного договора</p>
+          </section>
+          <div class="mini-slider__img">
+            <img alt="изображение" src="img/mini-slid2.jpg">
+          </div>
+        </div>
+        <div class="mini-slider__item swiper-slide">
+  <section class="mini-slider__content">
+    <h3 class="mini-slider__title">12 мес.</h3>
+    <p class="mini-slider__text">Период бесплатного сервисного обслуживания для наших клиентов</p>
+  </section>
+  <div class="mini-slider__img">
+    <img alt="изображение" src="img/mini-slid3.jpg">
+  </div>
+</div>
+
+      </div>
+      <div class="mini-slider-pagination-number"></div>
+      <div class="mini-slider-pagination-progressbar"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+<main role="main">
+  <section class="refreshing">
+    <div class="refreshing__bg">
+      <div class="refreshing__block container">
+        <h2 class="title title--refreshing">Более 10 лет устанавливаем самые современные системы очистки воды</h2>
+        <div class="slider refreshing__slider swiper-container">
+          <ul class="refreshing__list swiper-wrapper">
+            <li class="refreshing__item card swiper-slide">
+              <p>Устраняем из воды запахи, снижаем цветность, выводим остаточный хлор и органические соединения</p>
+            </li>
+            <li class="refreshing__item card swiper-slide">
+              <p>Удаляем сероводород и другие ратворенные в воде газы. Окисляем растворенное в воде железо</p>
+            </li>
+            <li class="refreshing__item card swiper-slide">
+              <p>Очищаем воду на молекулярном уровне. Задерживаем молекулы бактерий и вирусов, Удаляем соли тяжелых металлов, ртуть, мышьяк, железо, нитраты</p>
+            </li>
+            <li class="refreshing__item card swiper-slide">
+              <p>Удаляем излишки солей магния, кальция, примесей сульфатов, нитритов, марганца и прочее. Снижаем концентрат жестких солей до предельно низкого уровня</p>
+            </li>
+            <li class="refreshing__item card swiper-slide">
+              <p>Обеззараживаем воду, боремся с бактериологическим загрязнением</p>
+            </li>
+            <li class="refreshing__item card swiper-slide">
+              <p>Устраняем из воды соединения марганца и железа, за счет чего вода становится светлее</p>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="result">
+    <div class="container">
+      <h3 class="title">Результат внедрения автономной системы очистки воды Fresh&nbsp;Aqua в загородные дома</h3>
+      <div class="result__slider swiper-container slider">
+        <ul class="result__list swiper-wrapper">
+          <li class="result__item result__item--1 swiper-slide">
+            <p>Кристально чистая питьевая вода</p>
+          </li>
+          <li class="result__item result__item--2 swiper-slide">
+            <p>Увеличение срока службы бытовой техники</p>
+          </li>
+          <li class="result__item result__item--3 swiper-slide">
+            <p>Отсутствие желтого налета на сантехнике</p>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="block block--cleaning container">
+    <h3 class="title">Соберем индивидуальную систему очистки, или подберем готовое решение в зависимости от результата анализа воды</h3>
+    <div class="block__wrap">
+      <div class="swiper-container slider">
+        <ul class="info-block swiper-wrapper">
+          <li class="info-block__item info-block__item--hover swiper-slide">
+            <div class="info-block__inner info-block__inner--1">
+              <h4 class="info-block__title">Обезжелезивание</h4><span class="info-block__details">От 72 500 руб</span>
+            </div><a class="button button__info-block" data-fancybox="" href="#cleaning-card">Подробнее</a>
+          </li>
+          <li class="info-block__item info-block__item--hover swiper-slide">
+            <div class="info-block__inner info-block__inner--2">
+              <h4 class="info-block__title">Умягчение</h4><span class="info-block__details">От 72 500 руб</span>
+            </div><a class="button button__info-block" data-fancybox="" href="#cleaning-card">Подробнее</a>
+          </li>
+          <li class="info-block__item info-block__item--hover swiper-slide">
+            <div class="info-block__inner info-block__inner--3">
+              <h4 class="info-block__title">Комфорт</h4><span class="info-block__details">От 72 500 руб</span>
+            </div><a class="button button__info-block" data-fancybox="" href="#cleaning-card">Подробнее</a>
+          </li>
+          <li class="info-block__item info-block__item--hover swiper-slide">
+            <div class="info-block__inner info-block__inner--4">
+              <h4 class="info-block__title">Стандарт</h4><span class="info-block__details">От 72 500 руб</span>
+            </div><a class="button button__info-block" data-fancybox="" href="#cleaning-card">Подробнее</a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+      <section class="block-form">
+        <div class="block-form__wrap">
+          <h4 class="title title--form">Вызвать специалиста на&nbsp;объект</h4>
+          <p class="block-form__description">Результаты осмотра позволят точно определить наиболее подходящую систему очистки воды</p>
+          <form class="form">
+            <label class="form__label"><input class="form__item phone" type="tel" name="phone" placeholder="Телефон" required></label>
+            <label><select class="form__select">
+                <option>Тип источника воды</option>
+                <option>- - - - - </option>
+                <option>- - - - - </option>
+              </select></label>
+            <button class="button button--form">Заказать выезд специалиста</button>
+            <label><input class="visually-hidden form__checkbox" type="checkbox" required><span class="form__checkbox-text">Я даю свое согласие на обработку персональных данных</span></label>
+          </form>
+        </div>
+      </section>
+    </div>
+    <ul class="service-info">
+      <li class="service-info__item service-info__item--1">Монтаж в <span>течении 24 часов</span> с&nbsp;момента завки</li>
+      <li class="service-info__item service-info__item--2"><span>Пожизненная гарантия</span> на смонтированную систему</li>
+      <li class="service-info__item service-info__item--3">Один год сервисного обслуживания <span>—&nbsp;бесплатного</span></li>
+    </ul>
+  </section>
+  <section class="tariffs">
+    <div class="container">
+      <h4 class="title">Тарифы на техническое обслуживание</h4>
+      <div class="tariffs__slider swiper-container slider">
+        <div class="tariffs__wrapper swiper-wrapper">
+          <section class="tariffs__card swiper-slide">
+            <h4 class="tariffs__title tariffs__title--1">Контракт «Разумный»на систему умягчения</h4>
+            <ul class="tariffs__info">
+              <li class="tariffs__info-item"><span>Два года</span> обслуживания</li>
+              <li class="tariffs__info-item">Плюс первый год <span>— бесплатно</span></li>
+              <li class="tariffs__info-item">Действует при покупке новой системы</li>
+            </ul>
+            <p class="tariffs__price">20 000 руб</p>
+            <a class="button" href="#">Хочу знать больше</a>
+          </section>
+          <section class="tariffs__card swiper-slide">
+            <h4 class="tariffs__title tariffs__title--2">Контракт «Разумный»на системы «Стандарт» и «Комфорт</h4>
+            <ul class="tariffs__info">
+              <li class="tariffs__info-item"><span>Два года</span> обслуживания</li>
+              <li class="tariffs__info-item">Плюс первый год <span>— бесплатно</span></li>
+              <li class="tariffs__info-item">Действует при покупке новой системы</li>
+            </ul>
+            <p class="tariffs__price">30 000 руб</p>
+            <a class="button" href="#">Хочу знать больше</a>
+          </section>
+          <section class="tariffs__card swiper-slide">
+            <h4 class="tariffs__title tariffs__title--3">Годовой контракт на системы «Стандарт» и «Комфорт»</h4>
+            <ul class="tariffs__info">
+              <li class="tariffs__info-item"><span>Четыре</span> выезда в год</li>
+              <li class="tariffs__info-item"><span>Диагностика системы</span></li>
+              <li class="tariffs__info-item"><span>Настройка</span> работы системы</li>
+              <li class="tariffs__info-item"><span>Техобслуживание системы</span></li>
+            </ul>
+            <p class="tariffs__price">20 000 руб</p>
+            <a class="button" href="index.html">Хочу знать больше</a>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews container">
+    <h4 class="title">Реализованные проекты и отзывы наших клиентов</h4>
+    <section class="block-nav">
+      <a class="block-nav__link block-nav__link--active" href="" data-btn-filter="1">#Все</a>
+      <a class="block-nav__link" href="" data-btn-filter="2">#Отзывы</a>
+      <a class="block-nav__link" href="" data-btn-filter="3">#Благодарственные письма</a>
+      <a class="block-nav__link" href="" data-btn-filter="4">#Проекты</a>
+    </section>
+    <div class="reviews__slider swiper-container">
+      <div class="swiper-wrapper">
+        <section class="review-card swiper-slide" data-filter="1">
+          <a class="review-card__link" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" data-fancybox>
+            <img class="review-card__play" src="img/play.svg" alt="запустить видео" width="60" height="60">
+            <img class="review-card__img" src="img/review.jpg" alt="изображение">
+          </a>
+          <p class="review-card__title">Видео отзыв</p>
+        </section>
+        <section class="review-card swiper-slide" data-filter="2">
+          <a class="review-card__link" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" data-fancybox>
+            <img class="review-card__play" src="img/play.svg" alt="запустить видео" width="60" height="60">
+            <img class="review-card__img" src="img/review.jpg" alt="изображение">
+          </a>
+          <p class="review-card__title">Видео отзыв</p>
+        </section>
+        <section class="review-card swiper-slide" data-filter="3">
+          <a class="review-card__link" href="img/review.jpg" data-fancybox><img class="review-card__img" src="img/review.jpg" alt="изображение"></a>
+          <p class="review-card__title">Благодарственное письмо от компании «РЖД»</p>
+        </section>
+        <section class="review-card swiper-slide" data-filter="4">
+          <a class="review-card__link" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" data-fancybox>
+            <img class="review-card__play" src="img/play.svg" alt="запустить видео" width="60" height="60">
+            <img class="review-card__img" src="img/review.jpg" alt="изображение">
+          </a>
+          <p class="review-card__title">Видео отзыв</p>
+        </section>
+      </div>
+      <div class="reviews__buttons">
+        <div class="reviews__button-prev"><img class="reviews__button-arrow" width="44" height="8" src="img/arrow-prev.svg">
+          </img></div>
+        <div class="reviews__slider-pagination"></div>
+        <div class="reviews__button-next"><img class="reviews__button-arrow" width="44" height="8" src="img/arrow-next.svg">
+        </img></div>
+      </div>
+    </div>
+    <section class="clients swiper-container">
+      <div class="swiper-wrapper">
+        <div class="clients__card swiper-slide"><img src="img/sberbank.png" alt="Сбербанк России" width="210" height="57"></div>
+        <div class="clients__card swiper-slide"><img src="img/rosneft.png" alt="Роснефть" width="108" height="78"></div>
+        <div class="clients__card swiper-slide"><img src="img/railways-logo.png" alt="российские железные дороги" width="128" height="57"></div>
+        <div class="clients__card swiper-slide"><img src="img/khimki.png" alt="Химки" width="140" height="58"></div>
+        <div class="clients__card swiper-slide"><img src="img/barviha.png" alt="Барвиха" width="44" height="63"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </section>
+
+  <section class="plan">
+    <div class="container">
+      <h5 class="title title--plan">Как мы будем с вами работать</h5>
+      <div class="plan__block">
+        <ul class="plan__list">
+          <li class="plan__item card card--line">Звонок от менеджера, чтобы ответить на все интересующие вопросы</li>
+          <li class="plan__item card card--line">Подготовим коммерческое предложение и согласуем цену</li>
+          <li class="plan__item card card--line">Подписание договора и внесение аванса</li>
+          <li class="plan__item card card--line">Монтаж системы и получение оплаты</li>
+          <li class="plan__item card card--line">Подписание сервисного договора и обслуживание системы</li>
+        </ul>
+        <section class="block-form">
+          <div class="block-form__wrap block-form__wrap--bg">
+            <h4 class="title title--form">Остались <span>интересующие</span> вопросы ?</h4>
+            <p class="block-form__description">Перезвоним в течении 5 минут и ответим на любые вопросы</p>
+            <form class="form">
+              <label class="form__label"><input class="form__item" type="text" name="name" placeholder="Имя" required></label>
+              <label class="form__label"><input class="form__item phone" type="tel" name="phone" placeholder="Телефон" required></label>
+              <button class="button button--form">Жду звонка</button>
+              <label><input class="visually-hidden form__checkbox" type="checkbox" required><span class="form__checkbox-text">Я даю свое согласие на обработку персональных данных</span></label>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section class="location">
+    <div class="location__contacts">
+      <section class="contacts">
+        <h4 class="title">Наши контакты</h4>
+        <p class="contacts__description">Чтобы лично убедиться в качестве материалов и обсудить с менеджером все вопросы</p>
+        <ul class="contacts__list">
+          <li class="contacts__item contacts__item--map">Наш офис находится по адресу <span>г. Москва ул. Багрицкого д.4</span></li>
+          <li class="contacts__item contacts__item--time">Режим работы <span>Пн. — Пт. с 9:00 до 18:00</span></li>
+          <li class="contacts__item contacts__item--phone">Связаться
+            <a href="tel:84956407088">8 (495) 640-70-88</a>
+            <a href="mailto:info@fresh-aqua.ru">info@fresh-aqua.ru</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5051.539899112697!2d37.43409899724107!3d55.72717673329266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54e94faeb9181%3A0xd3f554e597a3f196!2sUlitsa%20Bagritskogo%2C%204%2C%20Moskva%2C%20Russia%2C%20121374!5e0!3m2!1sen!2slv!4v1569509046562!5m2!1sen!2slv" allowfullscreen=""></iframe>
+  </section>
+</main>
+<footer class="page-footer container">
+  <div class="social-networks page-footer__item">Мы в соц сетях: <div class="social-networks__block"><a href="#" target="_blank"><img src="img/instagram.svg" width="30" height="30" alt="Мы в Инстаграме"></a></div>
+  </div>
+  <p class="page-footer__develop page-footer__item"><a href="https://pplans.ru" target="_blank"><img src="img/pplans.svg" alt="Веб студия «People Plans» — Разработка сайтов и лендингов"></a></p>
+  <p class="page-footer__copyright page-footer__item">Fresh Aqua © 2019 Все права защищены</p>
+</footer>
+
+<div style="display: none;" id="cleaning-card" class="modal">
+  <img src="img/modal-water.jpg" alt="Схема обезжелезивания воды">
+  <p class="modal__title">Схема обезжелезивания воды</p>
+</div>
+<div style="display: none;" id="callback" class="block-form block-form--modal">
+  <h4 class="title title--form">Остались <span>интересующие</span> вопросы ?</h4>
+  <p class="block-form__description">Перезвоним в течении 5 минут и ответим на любые вопросы</p>
+  <form class="form">
+    <label class="form__label"><input class="form__item" type="text" name="name" placeholder="Имя" required></label>
+    <label class="form__label"><input class="form__item phone" type="tel" name="phone" placeholder="Телефон" required></label>
+    <button class="button button--form">Заказать звонок</button>
+    <label><input class="visually-hidden form__checkbox" type="checkbox" required><span class="form__checkbox-text">Я даю свое согласие на обработку персональных данных</span></label>
+  </form>
+</div>
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="libs/swiper/js/swiper.min.js"></script>
+<script src="libs/jQueryFormStyler/jquery.formstyler.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>
+
